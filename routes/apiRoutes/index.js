@@ -25,5 +25,18 @@ app.post ('/notes', (req,res) => {
     res.json(db)
 })
 
+app.delete ('/notes/:id', (req,res) => {
+    var noteId = req.params.id
+    var currentNotes = db.filter(note => note.id != noteId)
+     db = currentNotes
+  
+    fs.writeFileSync('./db/db.json', JSON.stringify(db), function(error){
+        if (error) throw error
+    })
+    console.log(db, 'postroute')
+
+    res.json(db)
+})
+
 module.exports = app;
 
