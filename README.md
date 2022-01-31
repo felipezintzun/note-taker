@@ -9,7 +9,7 @@ When the user open the app they are prompted to Get Started. Once they click on 
 [GitHub](https://github.com/felipezintzun/note-taker)
 
 #### Heroku 
-[heroku](https://guarded-plains-54212.herokuapp.com/)
+[Note-Taker APP](https://guarded-plains-54212.herokuapp.com/)
 
 #### Email:
 felipiezintzun@gmail.com
