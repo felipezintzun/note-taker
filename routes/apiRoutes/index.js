@@ -27,13 +27,13 @@ app.post ('/notes', (req,res) => {
 
 app.delete ('/notes/:id', (req,res) => {
     var noteId = req.params.id
-    var currentNotes = db.filter(note => note.id != noteId)
+    var currentNotes = db.filter(note => note.id != noteId) // Alternate use for loop - if statemenet check for id match and push to currentNotes
      db = currentNotes
   
     fs.writeFileSync('./db/db.json', JSON.stringify(db), function(error){
         if (error) throw error
     })
-    console.log(db, 'postroute')
+    console.log(db, 'deleteroute')
 
     res.json(db)
 })
