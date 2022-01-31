@@ -6,7 +6,7 @@ Note Taker is an app that can be used to save notes. This application uses Expre
 When the user open the app they are prompted to Get Started. Once they click on Get Started they are directed to the main part of the app where the user can add, save, delete notes. When a user saves a note they are displayed on the left-side column. They are then able to delete notes. A user is required to in a Note Title and Note Body in order to get the save icon to appear. 
 
 #### GitHub Repository 
-(https://github.com/felipezintzun/note-taker)
+[GitHub](https://github.com/felipezintzun/note-taker)
 
 #### Heroku 
 [heroku](https://guarded-plains-54212.herokuapp.com/)
