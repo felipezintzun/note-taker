@@ -12,7 +12,7 @@ When the user open the app they are prompted to Get Started. Once they click on 
 [Note-Taker APP](https://guarded-plains-54212.herokuapp.com/)
 
 #### YouTube
-[Walkthrough Video](https://guarded-plains-54212.herokuapp.com/)
+[Walkthrough Video](https://www.youtube.com/watch?v=LriQcTIUBXQ&t=4s)
 
 #### Email:
 felipiezintzun@gmail.com
